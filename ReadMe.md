@@ -1,5 +1,5 @@
 # Tic-Tac-Toe Game:
-[Tic Tac Toe with prev step and record](https://guytdev.github.io/TicTacToe_GuyTdev/)
+[Tic Tac Toe with prev step and record](https://guytdev.github.io/TicTacToe_GuyTdev/index.html)
 > ## The page that hosts it will contain a menu with the following options:
  1. [x] New game - clicking this button will clear the board for starting a new game.
  2. [x] Delete last step - every click on it will return to the state before the last check. You can press several times, of course, until the initial state.
