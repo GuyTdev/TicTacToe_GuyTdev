@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Save session array</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <div id="score">
+        <h1>Tic Tac Toe</h1><br>
+        <!-- <h6 id="text_status" >Player X Turn</h6> -->
+    </div>
+    <div id="divBoardOfBoxes">
+        <input type="button" class="box" id="1" onclick="change_board(1)" onmouseover="showNextTurn(1)" onmouseleave="hideValueFromBox(1)" >
+        <input type="button" class="box" id="2" onclick="change_board(2)" onmouseover="showNextTurn(2)" onmouseleave="hideValueFromBox(2)" >
+        <input type="button" class="box" id="3" onclick="change_board(3)" onmouseover="showNextTurn(3)" onmouseleave="hideValueFromBox(3)" ><br>
+        <input type="button" class="box" id="4" onclick="change_board(4)" onmouseover="showNextTurn(4)" onmouseleave="hideValueFromBox(4)" >
+        <input type="button" class="box" id="5" onclick="change_board(5)" onmouseover="showNextTurn(5)" onmouseleave="hideValueFromBox(5)" >
+        <input type="button" class="box" id="6" onclick="change_board(6)" onmouseover="showNextTurn(6)" onmouseleave="hideValueFromBox(6)" ><br>
+        <input type="button" class="box" id="7" onclick="change_board(7)" onmouseover="showNextTurn(7)" onmouseleave="hideValueFromBox(7)" >
+        <input type="button" class="box" id="8" onclick="change_board(8)" onmouseover="showNextTurn(8)" onmouseleave="hideValueFromBox(8)" >
+        <input type="button" class="box" id="9" onclick="change_board(9)" onmouseover="showNextTurn(9)" onmouseleave="hideValueFromBox(9)" ><br>
+    </div>
+
+        
+    <button onclick="previousMove()"> Previous move</button><br>
+    <button  onclick="reset()" > Reset</button><br>
+    <button onclick="saveMove()" > save step</button>
+    <button onclick="loadMove()" > load step </button>
+    <button onclick="showRec()" > show record </button>
+
+
+</body>
+</html>
